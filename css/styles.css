@@ -41,11 +41,11 @@ h4
 
 .middle-container
 {
-
+background-color: #fffdf9;
 }
 .bottom-container
 {
-
+background-color: #ffe3ed;
 }
 
 .bottom-cloud
@@ -65,4 +65,11 @@ h4
 .mountain
 {
   padding-top: 100px;
+}
+
+.skills img
+{
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
 }
