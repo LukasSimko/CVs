@@ -5,15 +5,6 @@ body
   font-family: 'Merriweather', serif;
 }
 
-h1, h2
-{
-color: #66BFBF;
-}
-
-h3, a
-{
-color: #11999E;
-}
 
 h1
 {
@@ -44,7 +35,7 @@ h4
 
 .top-container
 {
-  background-color: #ffff;
+  background-color: #fff;
   text-shadow: 9px 8px 16px black;
   width: 100%;
   position: relative;
