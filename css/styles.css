@@ -8,15 +8,18 @@ body
 
 h1
 {
+  color: 	#ac9c2b;
   font-family: 'Sacramento', cursive;
   font-size: 100px;
   font-style: italic;
-  font-weight: lighter;
+  font-weight: normal;
   margin: 50px auto 0;
+  line-height: 2;
 }
 
 h2
 {
+  color: 	#ac9c2b;
   font-family: 'Montserrat', sans-serif;
   font-size: 2rem;
   font-weight: lighter;
@@ -24,6 +27,7 @@ h2
 
 h3
 {
+  color:#d3c34f;
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -73,12 +77,64 @@ background-color: #ffe3ed;
 
 .skills img
 {
-  width: 70px;
-  height: 70px;
+  width: 15%;
   border-radius: 50%;
+}
+.skill-row
+{
+  margin: 100px auto;
+  width: 50%;
+  text-align: left;
+  line-height: 2;
 }
 
 .fa
 {
   color:#9656a1;
+}
+
+.main-sub
+{
+  font-weight: normal;
+  line-height: 2;
+}
+
+.skill-keyboard
+{
+  float: left;
+  margin-right: 30px;
+}
+
+.skill-communication
+{
+  float: right;
+  margin-left: 30px;
+}
+
+.skill-creative
+{
+  float: left;
+  margin-right: 30px;
+}
+
+.footer-originality
+{
+  color: #9656a1;
+}
+.footer-link
+{
+  padding: 30px;
+}
+
+.bottom-container
+{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  line-height: 2;
+}
+
+button
+{
+  padding: 15px;
+  margin: 50px;
 }
