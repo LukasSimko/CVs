@@ -56,19 +56,20 @@ background-color: #fffdf9;
 background-color: #ffe3ed;
 }
 
-.me-img
-{
-    left:150px;
-    bottom: 300px;
-    position: absolute;
-    border-radius: 50%;
-}
+
 
 .gif-aircraft
 {
     right:350px;
     position: absolute;
     width: 400px;
+}
+
+.skill-aircraft
+{
+  left: 200px;
+  position: absolute;
+  top:1850px
 }
 
 .bottom-cloud
