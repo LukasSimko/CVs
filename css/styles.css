@@ -56,6 +56,21 @@ background-color: #fffdf9;
 background-color: #ffe3ed;
 }
 
+.me-img
+{
+    left:150px;
+    bottom: 300px;
+    position: absolute;
+    border-radius: 50%;
+}
+
+.gif-aircraft
+{
+    right:350px;
+    position: absolute;
+    width: 400px;
+}
+
 .bottom-cloud
 {
   left:150px;
@@ -69,6 +84,12 @@ background-color: #ffe3ed;
   right: 200px;
   top: 50px;
 }
+.top-aircraft
+{
+  left: 550px;
+  bottom: 350px;
+  position: absolute;
+}
 
 .mountain
 {
@@ -77,15 +98,16 @@ background-color: #ffe3ed;
 
 .skills img
 {
-  width: 15%;
   border-radius: 50%;
+  width: 15%;
+
 }
 .skill-row
 {
-  margin: 100px auto;
-  width: 50%;
-  text-align: left;
   line-height: 2;
+  margin: 100px auto;
+  text-align: left;
+  width: 50%;
 }
 
 .fa
@@ -97,6 +119,7 @@ background-color: #ffe3ed;
 {
   font-weight: normal;
   line-height: 2;
+  padding-left: 450px;
 }
 
 .skill-keyboard
@@ -135,6 +158,6 @@ background-color: #ffe3ed;
 
 button
 {
-  padding: 15px;
   margin: 50px;
+  padding: 15px;
 }
