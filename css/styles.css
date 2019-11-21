@@ -79,7 +79,7 @@ background-color: #ffe3ed;
 {
   position: absolute;
   right: 4%;
-  top: 1250px;
+  top: 100%;
 }
 
 .skills img
@@ -98,6 +98,7 @@ background-color: #ffe3ed;
 {
   float: left;
   margin-right: 30px;
+  height: 150px;
 }
 
 .skill-creative
