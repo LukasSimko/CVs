@@ -56,40 +56,18 @@ background-color: #fffdf9;
 background-color: #ffe3ed;
 }
 
-
-
-.gif-aircraft
-{
-    right:15%;
-    position: absolute;
-    width: 400px;
-}
-
-.skill-aircraft
-{
-  left: 10%;
-  position: absolute;
-  top:1850px
-}
-
 .bottom-cloud
 {
-  left:10%;
-  bottom: 30%;
+  left:150px;
+  bottom: 300px;
   position: absolute;
 }
 
 .top-cloud
 {
   position: absolute;
-  right: 20%;
-  top: 10%;
-}
-.top-aircraft
-{
-  left: 25%;
-  bottom: 350px;
-  position: absolute;
+  right: 200px;
+  top: 50px;
 }
 
 .mountain
@@ -97,18 +75,47 @@ background-color: #ffe3ed;
   padding-top: 100px;
 }
 
+.aircraft-img
+{
+  position: absolute;
+  right: 50px;
+  top: 1050px;
+}
+
 .skills img
 {
-  border-radius: 50%;
   width: 15%;
-
+  border-radius: 50%;
 }
 .skill-row
 {
-  line-height: 2;
   margin: 100px auto;
-  text-align: left;
   width: 50%;
+  text-align: left;
+}
+
+.aircraft
+{
+  float: left;
+  margin-right: 30px;
+}
+
+.skill-creative
+{
+  float: left;
+  margin-right: 30px;
+}
+
+.contact-me
+{
+  margin: 100px auto;
+  width: 50%;
+  text-align: left;
+}
+
+.contact-me img
+{
+  width: 25%;
 }
 
 .fa
@@ -120,7 +127,6 @@ background-color: #ffe3ed;
 {
   font-weight: normal;
   line-height: 2;
-  padding-left: 450px;
 }
 
 .skill-keyboard
@@ -135,11 +141,6 @@ background-color: #ffe3ed;
   margin-left: 30px;
 }
 
-.skill-creative
-{
-  float: left;
-  margin-right: 30px;
-}
 
 .footer-originality
 {
