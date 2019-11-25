@@ -1,5 +1,6 @@
 body
 {
+  background-color: #fffdf9;
   margin: 0;
   text-align: center;
   font-family: 'Merriweather', serif;
@@ -23,6 +24,7 @@ h2
   font-family: 'Montserrat', sans-serif;
   font-size: 2rem;
   font-weight: lighter;
+  padding-bottom: 10px;
 }
 
 h3
@@ -35,6 +37,32 @@ h4
 {
   font-family: 'Dancing Script', cursive;
   font-size: 20px;
+}
+
+p
+{
+  line-height: 2;
+}
+
+a
+{
+  color: #9656a1;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 10px 20px;
+  text-decoration: none;
+}
+
+a:hover
+{
+  color:#fc8db6;
+}
+
+hr
+{
+  border: dotted #ffe3ed 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
 }
 
 .top-container
@@ -50,10 +78,11 @@ h4
 .middle-container
 {
 background-color: #fffdf9;
+margin: 100px 0;
 }
 .bottom-container
 {
-background-color: #ffe3ed;
+  background-color: #ffe3ed;
 }
 
 .bottom-cloud
@@ -70,6 +99,18 @@ background-color: #ffe3ed;
   top: 50px;
 }
 
+.intro
+{
+  margin: auto;
+  width: 30%;
+}
+
+.contact-message
+{
+  margin: 40px auto 60px;
+  width: 40%;
+}
+
 .mountain
 {
   padding-top: 100px;
@@ -78,20 +119,20 @@ background-color: #ffe3ed;
 .aircraft-img
 {
   position: absolute;
-  right: 4%;
-  top: 80%;
 }
 
 .skills img
 {
   width: 15%;
   border-radius: 50%;
+
 }
 .skill-row
 {
   margin: 100px auto;
   width: 50%;
   text-align: left;
+
 }
 
 .aircraft
@@ -111,17 +152,7 @@ background-color: #ffe3ed;
 {
   margin: 100px auto;
   width: 50%;
-  text-align: left;
-}
-
-.contact-me img
-{
-  width: 25%;
-}
-
-.fa
-{
-  color:#9656a1;
+  text-align: center;
 }
 
 .main-sub
@@ -142,30 +173,61 @@ background-color: #ffe3ed;
   margin-left: 30px;
 }
 
-.footer-originality p
-{
-  font-size: 20px;
-}
-
-.footer-originality
-{
-  color: #9656a1;
-
-}
-.footer-link
-{
-  padding: 30px;
-}
-
 .bottom-container
 {
-  padding-top: 50px;
-  padding-bottom: 50px;
   line-height: 2;
+  background-color: #ffe3ed;
+  padding: 50px 0 20px;
 }
 
-button
+.fa
 {
-  margin: 50px;
-  padding: 15px;
+  margin: 5px;
+}
+
+.copyright
+{
+  color:#9656a1;
+  font-size: 0.75em;
+  padding: 20px 0;
+
+}
+
+.myButton {
+	-moz-box-shadow: 0px 12px 31px -7px #eb99b7;
+	-webkit-box-shadow: 0px 12px 31px -7px #eb99b7;
+	box-shadow: 0px 12px 31px -7px #eb99b7;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #f7e4eb), color-stop(1, #f0c5d5));
+	background:-moz-linear-gradient(top, #f7e4eb 5%, #f0c5d5 100%);
+	background:-webkit-linear-gradient(top, #f7e4eb 5%, #f0c5d5 100%);
+	background:-o-linear-gradient(top, #f7e4eb 5%, #f0c5d5 100%);
+	background:-ms-linear-gradient(top, #f7e4eb 5%, #f0c5d5 100%);
+	background:linear-gradient(to bottom, #f7e4eb 5%, #f0c5d5 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f7e4eb', endColorstr='#f0c5d5',GradientType=0);
+	background-color:#f7e4eb;
+	-webkit-border-radius:24px;
+	-moz-border-radius:24px;
+	border-radius:24px;
+	display:inline-block;
+	cursor:pointer;
+	color:#9656a1;
+	font-family: 'Montserrat', sans-serif;
+	font-size:19px;
+	padding:9px 16px;
+	text-decoration:none;
+	text-shadow:1px 0px 0px #fc8db6;
+}
+.myButton:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #f0c5d5), color-stop(1, #f7e4eb));
+	background:-moz-linear-gradient(top, #f0c5d5 5%, #f7e4eb 100%);
+	background:-webkit-linear-gradient(top, #f0c5d5 5%, #f7e4eb 100%);
+	background:-o-linear-gradient(top, #f0c5d5 5%, #f7e4eb 100%);
+	background:-ms-linear-gradient(top, #f0c5d5 5%, #f7e4eb 100%);
+	background:linear-gradient(to bottom, #f0c5d5 5%, #f7e4eb 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f0c5d5', endColorstr='#f7e4eb',GradientType=0);
+	background-color:#f0c5d5;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
 }
